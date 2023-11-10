@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html Lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOPIKOKOPIMO</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="BLOG">
+        <h1 style="font-size:200%;color: rgb(255, 255, 255);">HELLO MADLANG PEOPLE!</h1>
+        <img class="me.jpg" src="BG1.jpg" alt="My Profile" alt="Girl in a jacket" width="300" height="350"> <img/>
+        <div class="date"> 06 September 2023 </div>
+        <h2> ABOUT MEEEE</h2>
+
+<p class="paragrap"> Hi I'm Rosa, I am a IT student at DLL or Dalubhasaan ng Lungsod ng Lucena! Welcome to my blog! So in this blog I will tell you a little about myself. So hi again! haha! my name is Rosalinda P Dimaano, I am 22 years old and yes I am 22 and still in second year college, so the story behind it is I shifted course from being a nursing student to IT student haha! its like from parts of the human body to computer parts real quick! To be honest its not hard for me to adjust because I already have a background in technology and im enjoying it now, I think that would be all, THANK YOOUUU!!
+   
+</p>
+
+    </div>
+</body>
+</html>

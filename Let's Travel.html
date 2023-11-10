@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<link rel="shortcut icon" href="icon logo.png"><title>Let's Travel!</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<body>
+
+  <div class="w3-container">
+    <h1 class="w3-center w3-animate-bottom" style="text-shadow:2px 2px 0 #8b8b8b">Travel Tour</h1>
+  </div>
+  
+  <div class="w3-panel">
+    <h2 class="w3-opacity" style="text-shadow:1px 1px 0 #000000"> Welcome to the Comprehensive Travel Guide, your ultimate companion to exploring the world's most extraordinary destinations. Embark on a journey that transcends borders and cultures, immersing yourself in the magic of new places, cuisines, and traditions. Whether you're an adventurous solo traveler, a globetrotting family, or a couple seeking romantic escapes, this guide promises to unlock unforgettable experiences, hidden gems, and practical insights to make your travels seamless and memorable.</h2>
+  </div>
+
+
+
+<div class="w3-bar w3-border w3-light-grey">
+<div class="w3-bar w3-border w3-card-4">
+  <button class="w3-bar-item w3-button" onclick="openCity('London')">London</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Paris</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Tokyo</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('Singapore')">Singapore</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('Italy')">Italy</button>
+</div>
+
+<div id="London" class="w3-container city">
+  <h3>London</h2>
+  <img class="London.jpg" src="london.jpg" alt="London" width="1340" height="500"> <img/>
+  <p>Where History Meets Modernity. Unravel the Charm of the British Capital. London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="w3-container city" style="display:none">
+  <h3>Paris</h2>
+  <img class="Paris.jpg" src="paris.jpg" alt="Paris" width="700" height="450"> <img/>
+  <p>The City of Love and Lights. Embrace Romance and Elegance in the Heart of France.</p> 
+</div>
+
+<div id="Tokyo" class="w3-container city" style="display:none">
+  <h3>Tokyo</h2>
+  <img class="Tokyo.jpg" src="tokyo.jpg" alt="Tokyo" width="1340" height="600"> <img/>
+  <p>Where Tradition Meets Futuristic Marvels. Dive into the Dynamic Soul of Japan's Capital.</p>
+</div>
+
+<div id="Singapore" class="w3-container city" style="display:none">
+  <h3>Singapore</h2>
+  <img class="Singapore.jpg" src="singapore.jpg" alt="Singapore" width="1000" height="500"> <img/>
+  <p>The Garden City with Urban Flair. Explore the Perfect Fusion of Nature and Modernity.</p>
+</div>
+
+<div id="Italy" class="w3-container city" style="display:none">
+  <h3>Italy</h2>
+  <img class="Italy.jpg" src="Italy.jpg" alt="Italy" width="1000" height="500"> <img/>
+  <p>A Timeless Masterpiece of Art, Culture, and Cuisine. Savor La Dolce Vita in the Land of Romance.</p>
+</div>
+
+
+
+<script>
+function openCity(cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(cityName).style.display = "block";  
+}
+</script>
+
+
+<i class="w3-xlarge" type="w3-button"></span>
+<a href="https://www.facebook.com/profile.php?id=100087461984397"><i class="fa fa-facebook"></i></a>
+<a href="https://www.youtube.com/watch?v=aaExiKsvt9A"><i class="fa fa-youtube"></i></a>
+<a href="https://www.instagram.com/travelandleisure/"><i class="fa fa-instagram"></i></a>
+<a href="https://twitter.com/TravelLeisure"><i class="fa fa-twitter"></i></a>
+
+</body>
+</html>
